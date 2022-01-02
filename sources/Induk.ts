@@ -2,10 +2,10 @@ import { SuperInduk } from "./SuperInduk"
 
 
 abstract class Induk extends SuperInduk{
-    public type:string;
-    public brand:string;
+    public type:string | undefined;
+    public brand:string | undefined;
 
-    constructor(type:string,brand:string){
+    constructor(type?:string,brand?:string){
         super();
         this.type = type;
         this.brand = brand;

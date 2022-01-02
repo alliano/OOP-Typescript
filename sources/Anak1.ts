@@ -6,7 +6,7 @@ class Anak1 extends Induk implements GoodMorning,goodAfternoon{
     public Umur:number;
     public hobi:string;
     constructor(nama:string,umur:number,hobi:string){
-        super(``,``);
+        super();
         this.nama = nama;
         this.Umur = umur;
         this.hobi = hobi;

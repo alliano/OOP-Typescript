@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Induk_1 = require("./Induk");
 class Anak1 extends Induk_1.Induk {
     constructor(nama, umur, hobi) {
-        super(``, ``);
+        super();
         this.nama = nama;
         this.Umur = umur;
         this.hobi = hobi;

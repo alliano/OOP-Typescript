@@ -20,7 +20,7 @@ class Anak1 extends Induk implements GoodMorning,goodAfternoon{
     sayAnythingOnMorning(name:string): string {
         return `hallo good morning ${name} i hope ur day is better`;
     }
-    sayGoodafternoon(name: string, date: number, year: number) {
+    sayGoodafternoon(name?: string, date?: number, year?: number) {
         return `hallo my name is ${name} now date ${date} and year ${year}`;
     }
     setDataParent(type: string, brand: string): void {

@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "rm -rf /dist && tsc",
     "ts": "rm -rf /dist && tsc -w",
-    "dev": "nodemon ./dist/constructor.js"
+    "dev": "nodemon ./distributions/Anak1.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.15",
